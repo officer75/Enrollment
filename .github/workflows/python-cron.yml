@@ -2,7 +2,7 @@ name: Python Script Cron
 
 on:
   schedule:
-    - cron: "*/15 * * * *" # 매 15분마다 실행
+    # - cron: "*/15 * * * *" # 매 15분마다 실행
 
 jobs:
   run-script:
